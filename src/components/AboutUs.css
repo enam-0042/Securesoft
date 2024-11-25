@@ -1,0 +1,65 @@
+.about-us-container {
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(36, 8, 8);
+    padding: 90px 20px;
+  }
+  
+  .about-us-container h1 {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    color:  #251c1c ;
+    margin: 15px;
+    font-weight: 800;
+  }
+  
+  .about-us-description {
+    max-width: 100%;
+    /* display: flex; */
+    text-align: center; 
+    /* margin: 0 auto 40px; */
+    padding: 10px 150px 20px 150px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us-card {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+    color: rgb(1, 0, 0);
+  }
+  
+  .about-us-card .icon {
+    font-size: 36px;
+    padding-top: 20px;
+    /* margin-bottom: 15px; */
+    padding-right: 20px;
+  }
+  .about-us-card .icon .icons{
+    font-size: 1.7em;
+    width: 30px;
+    height: 30px;
+  }
+  .about-us-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: -10px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .about-us-card p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
